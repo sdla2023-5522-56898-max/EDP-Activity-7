@@ -1,6 +1,8 @@
 .vs/
 bin/
 obj/
+build_verify/
+build_verify_excel/
 
 # Visual Studio user-specific files
 *.user
