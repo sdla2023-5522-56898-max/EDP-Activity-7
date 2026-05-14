@@ -19,15 +19,15 @@ internal static class UiTheme
     public static readonly Color MutedText = Color.FromArgb(96, 110, 140);
     public static readonly Color Border = Color.FromArgb(203, 216, 246);
 
-    public static Font TitleFont(float size = 24f) => new("Segoe UI Semibold", size, FontStyle.Bold);
+    public static Font TitleFont(float size = 26f) => new("Segoe UI Semibold", size, FontStyle.Bold);
 
-    public static Font SubtitleFont(float size = 10.5f) => new("Segoe UI", size, FontStyle.Regular);
+    public static Font SubtitleFont(float size = 11.5f) => new("Segoe UI", size, FontStyle.Regular);
 
-    public static Font BodyFont(float size = 10f) => new("Segoe UI", size, FontStyle.Regular);
+    public static Font BodyFont(float size = 11f) => new("Segoe UI", size, FontStyle.Regular);
 
-    public static Font StrongFont(float size = 10f) => new("Segoe UI Semibold", size, FontStyle.Bold);
+    public static Font StrongFont(float size = 11f) => new("Segoe UI Semibold", size, FontStyle.Bold);
 
-    public static Font MetricFont(float size = 30f) => new("Segoe UI Semibold", size, FontStyle.Bold);
+    public static Font MetricFont(float size = 32f) => new("Segoe UI Semibold", size, FontStyle.Bold);
 
     public static Panel CreateCard(Rectangle bounds, int radius = 24)
     {
